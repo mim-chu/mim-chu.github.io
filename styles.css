@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif; background: #f3ead8; color: #26221a; }
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 14px; }
+.site-header { padding: 28px 0 8px; }
+.brand { font-size: 27px; font-weight: 900; line-height: 1.3; }
+.sub { color: #6d6350; font-size: 14px; line-height: 1.6; margin: 8px 0 0; }
+.main { padding: 14px 14px 30px; }
+.card { display: flex; align-items: center; gap: 14px; background: #fffdf6; border: 2px solid #26221a; border-radius: 16px; padding: 14px; margin-bottom: 14px; text-decoration: none; color: #26221a; box-shadow: 0 3px 0 #26221a; }
+.card:active { transform: translateY(2px); box-shadow: 0 1px 0 #26221a; }
+.card-icon { width: 72px; height: 72px; border-radius: 14px; flex: none; border: 1px solid #d8cfb8; }
+.card-body { flex: 1; min-width: 0; }
+.card-title { display: block; font-size: 18px; font-weight: 900; line-height: 1.4; }
+.card-desc { display: block; font-size: 13px; color: #554c3a; line-height: 1.6; margin-top: 3px; }
+.card-meta { display: block; font-size: 12px; color: #978a6e; margin-top: 5px; }
+.card-arrow { font-size: 28px; font-weight: bold; color: #b50a27; flex: none; }
+.card.soon { border-style: dashed; box-shadow: none; background: transparent; }
+.card.soon .card-title { color: #978a6e; }
+.footer { color: #978a6e; font-size: 12px; text-align: center; padding: 14px 0 6px; line-height: 1.6; }
+@media (max-width: 480px) { .brand { font-size: 23px; } .card-icon { width: 60px; height: 60px; } .card-title { font-size: 16px; } }
